@@ -1,0 +1,25 @@
+{
+  "name": "cozykitchen",
+  "version": "1.0.0",
+  "description": "This is a weblog that shares healthy cooking recipes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Omidsheykhhassani/cozy-kitchen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Omidsheykhhassani/cozy-kitchen/issues"
+  },
+  "homepage": "https://github.com/Omidsheykhhassani/cozy-kitchen#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "tailwindcss": "^4.1.18"
+  }
+}

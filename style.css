@@ -2,4 +2,59 @@
   Theme Name: Cozy Kitchen
   Author: Omid Sheikh Hasani
   Version: 0.0.0
+  Theme URI: https://github.com/Omidsheykhhassani/cozy-kitchen
+  Description: This theme is for a weblog that shares healthy cooking recipes called Cozy Kitchen.
+
 */
+
+@import "tailwindcss";
+
+@font-face {
+  font-family: Vazir;
+  src: url("./assets/fonts/Vazir-FD-WOL.woff");
+}
+@font-face {
+  font-family: Gandom;
+  src: url("./assets/fonts/Gandom-FD.woff");
+}
+
+@theme {
+  --color-primary-100: #FFCEB0;
+  --color-primary-300: #FFA36A;
+  --color-primary-500: #FF7824;
+  --color-primary-700: #AD5218;
+  --color-primary-900: #5C2B0D;
+
+  --color-accent-100: #A3E7B2;
+  --color-accent-300: #52D26D;
+  --color-accent-500: #00BD28;
+  --color-accent-700: #00811B;
+  --color-accent-900: #00440E;
+
+  --color-warning-100: #F4D6A3;
+  --color-warning-300: #EAB252;
+  --color-warning-500: #E08E00;
+  --color-warning-700: #986100;
+  --color-warning-900: #513300;
+
+  --color-error-100: #D7ABA3;
+  --color-error-300: #B36052;
+  --color-error-500: #8F1500;
+  --color-error-700: #610E00;
+  --color-error-900: #330800;
+
+  --color-whites-100: #FDF9F6;
+  --color-whites-300: #FCF3EF;
+  --color-whites-500: #FAEEE7;
+  --color-whites-700: #AAA29D;
+  --color-whites-900: #5A5653;
+
+  --color-blacks-100: #ADABAA;
+  --color-blacks-300: #65615E;
+  --color-blacks-500: #1C1612;
+  --color-blacks-700: #130F0C;
+  --color-blacks-900: #0A0806;
+
+  --font-bfont: "Vazir", Arial;
+  --font-hfont: "Gandom", Inter;
+}
